@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
-// import { NavLinks } from '../constants';
+import { NavLinks } from '../constants';
 import { starks, menu, close } from '../assets';
 
 const Navbar = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={starks} alt="logo" className='w-9 h-19 object-contain' />
+          <img src={starks} alt="logo" className='w-6 h-12 object-contain' />
         </Link>
       </div>
     </nav>
