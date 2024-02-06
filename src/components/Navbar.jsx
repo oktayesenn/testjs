@@ -42,6 +42,11 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        <div className="sm:hidden w-[28px] h-[28px] object-contain cursor-pointer"
+          onClick={() => setActive("menu")}
+        > 
+          <img src={menu} alt="menu" />
+          </div>
       </div>
     </nav>
   )
