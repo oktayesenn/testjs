@@ -2,7 +2,9 @@ import React from 'react'
 
 const Feedbacks = () => {
   return (
-    <div>Feedbacks</div>
+    <div>
+      <h1>test</h1>
+    </div>
   )
 }
 
